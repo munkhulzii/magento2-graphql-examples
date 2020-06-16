@@ -1,1 +1,3 @@
-# magento2-graphql-examples
+# Magento 2 GraphQl Examples
+
+Just sample GraphQl queries
