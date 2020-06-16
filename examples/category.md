@@ -1,0 +1,1 @@
+# GraphQl queries for category
