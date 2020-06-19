@@ -1,4 +1,5 @@
 ## Add product in cart
+A customer token needed for doing cart request. You can check in customer.md how you can get the customer token.
 Request type POST:
 ```
 mutation {
