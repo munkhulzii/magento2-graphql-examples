@@ -1,6 +1,6 @@
 ## Create customer
 
-Request:
+Request type POST:
 
 ```
 mutation {
@@ -39,3 +39,26 @@ Response:
   }
 }
 ```
+
+## Login customer
+
+Request type POST:
+```
+mutation {
+  generateCustomerToken(email: "john.doe@example.com", password: "SecurePassword") {
+    token
+  }
+}
+```
+
+Response:
+```
+{
+  "data": {
+    "generateCustomerToken": {
+      "token": "rd1ezb7ag1naqmplik0mr7dhebq6pzfj"
+    }
+  }
+}
+```
+This token can be used for further actions like create cart, add in to cart, get customer informations etc.
